@@ -1,0 +1,106 @@
+html{
+    overflow-x: hidden;
+}
+.topnavbar{
+    background-color: #002c60;
+}
+.mark1{
+    background: linear-gradient(to right , rgb(207, 201, 201) , rgb(93, 93, 195) , rgb(120, 120, 210) );
+}
+
+
+.mark2{
+    margin-left: -2%;
+}
+.mark3{
+    background-image: url(images/bg-home1-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.mark4{
+    margin-top: -6%;
+}
+.mark5{
+    margin-top: -6%;
+}
+.mark6{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 45px;
+    text-align: center;
+    background-color: orange;
+    
+}
+.mark7{
+   color: orange;
+}
+
+.mark9{
+    width: 25%;
+}
+.btn1{
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px;
+}
+.mark10{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mark11{
+    margin-left: -14%;
+}
+.mark12{
+    margin-left: -21%;
+    width: 100%;
+    
+}
+.mark13{
+   margin-left: -11%;
+   width: 100%;
+}
+.mark14{
+    margin-left: -29%;
+    width: 100%;
+}
+.middlenavbar{
+    background-color: #09346a;
+    border-color: transparent;
+}
+.bottomnavbar{
+    background-color: #002c60;
+    border-color: transparent;
+}
+.cards .card:hover{
+    box-shadow: 1px 30px 40px 2px rgb(159, 151, 151);
+}
+.cards{
+    color: #f26522;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .topnavbar{
+        display: none;
+    }
+     .middlenavbar{
+        display: none;
+     }
+     .mark12{
+        margin-left: 3%;
+     }
+     .footer1{
+        width: 50%;
+     }
+     .form1{
+        margin-top: 5%;
+     }
+     .mark13{
+        margin-left: 3%;
+     }
+     .mark14{
+        margin-left: 3%;
+     }
